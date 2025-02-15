@@ -19,8 +19,5 @@ Edit Repo To your repo
    !nvm install --lts
    !node -v
    !npm -v
-   ```
-2. Clone Repo & Install dependencies:
-   ```bash
    !git clone https://github.com/inacoin/KaleidoFinance.git && cd KaleidoFinance && npm install && npm run start
    ```
