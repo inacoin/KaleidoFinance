@@ -12,14 +12,13 @@ Edit Repo To your repo
 
 1. Install NodeJS:
    ```bash
-   !dpkg --configure -a
-   !sudo apt-get update
-   !sudo apt-get install -y ca-certificates curl gnupg
-   !sudo mkdir -p /etc/apt/keyrings
-   !curl -fsSL https://deb.nodesource.com/gpgkey/nod... | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
-   !NODE_MAJOR=18 && echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE... nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list
-   !sudo apt-get update
-   !sudo apt-get install nodejs -y
+   !node -v
+   !sudo apt-get remove nodejs -y
+   !curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
+   !source ~/.bashrc
+   !nvm install --lts
+   !node -v
+   !npm -v
    ```
 2. Clone Repo & Install dependencies:
    ```bash
