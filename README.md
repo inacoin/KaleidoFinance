@@ -1,6 +1,12 @@
 # Kaleido Auto Bot Google Colab 🤖
 
-# Please Fork And Edit Wallet To Your EVM Wallet Before Running
+Please Fork And Edit Wallet To Your EVM Wallet Before Running
+
+Edit Repo To your repo 
+
+```bash
+   !git clone https://github.com/your-repo/KaleidoFinance.git && cd KaleidoFinance && npm install && npm run start
+   ```
 
 ## 🚀 Installation
 
