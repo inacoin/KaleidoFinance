@@ -5,7 +5,7 @@ Please Fork And Edit Wallet To Your EVM Wallet Before Running
 Edit Repo To your repo 
 
 ```bash
-   !git clone https://github.com/your-repo/KaleidoFinance.git && cd KaleidoFinance && npm install && npm run start
+   !git clone https://github.com/your-repo/KaleidoFinance.git && npm install @aws-sdk/client-s3 && cd KaleidoFinance && npm install && npm run start
    ```
 
 ## 🚀 Installation
@@ -19,5 +19,5 @@ Edit Repo To your repo
    !nvm install --lts
    !node -v
    !npm -v
-   !git clone https://github.com/inacoin/KaleidoFinance.git && cd KaleidoFinance && npm install && npm run start
+   !git clone https://github.com/inacoin/KaleidoFinance.git && npm install @aws-sdk/client-s3 && cd KaleidoFinance && npm install && npm run start
    ```
